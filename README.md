@@ -27,3 +27,5 @@ npm install
 npm start
 ```
 App will be available at: http://localhost:3000
+![image](https://github.com/user-attachments/assets/b9c48063-38cb-43a3-b3a7-902f746533c1)
+
