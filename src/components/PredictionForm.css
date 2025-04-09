@@ -1,0 +1,90 @@
+.container.wide {
+  max-width: 1600px; /* Daha da geniş ekran desteği */
+  margin: 3rem auto;
+  padding: 3rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-grid.double-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütunlu geniş düzen */
+  gap: 2rem 2.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333;
+}
+
+input,
+select {
+  margin-top: 0.4rem;
+  padding: 0.65rem 0.9rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+.button-group {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 0.75rem 1.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button[type="submit"] {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+button[type="button"] {
+  background-color: #e2e8f0;
+  color: #333;
+}
+
+.result-section {
+  margin-top: 3rem;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.prediction-result {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.prediction-placeholder {
+  font-size: 1rem;
+  color: #666;
+}
